@@ -27,7 +27,7 @@ const createSlice = ( sliceCount, imageSource, width ) => {
 
 };
 
-let slices = createSlice(7, "../images/man_clouds_height_154550_1280x720.jpg", 700);
+let slices = createSlice(7, "./images/man_clouds_height_154550_1280x720.jpg", 700);
 
 function joinImage() {
     slices.forEach( item => {
