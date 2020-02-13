@@ -1,0 +1,36 @@
+body {
+    margin: 0
+}
+
+/* .slice-con {
+    width: 200px;
+    height: fit-content;
+    position: relative;
+    overflow-x: hidden;
+}
+
+img {
+    position: relative;
+    margin-left: -200px;
+    width: 300%;
+    height: auto;
+} */
+
+
+
+.pic-holder {
+    position: absolute;
+    width: max-content;
+    height: fit-content;
+    top: 200px;
+    left: 0px;
+}
+
+.pic-holder > div {
+    transition: margin-left 0.5s;
+}
+
+
+/* .pic-holder:hover > div {
+    margin-left: 0em;
+} */
